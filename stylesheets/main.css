@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: #3b3b3b;
+  font-family: 'ProximaNova-Regular';
+}
+
+a {
+  color: #e2292f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:focus,
+a:hover {
+  color: #e2292f;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot') format('eot'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('ttf');
+}
+
+header {
+  color: #000;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+  height: 60px;
+  margin-top: 15px;
+}
+
+header img {
+  float: left;
+}
+
+header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header a {
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+footer {
+  font-size: 30px;
+  padding: 20px 0;
+  background: #f6f6f6;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  display: table;
+  text-align: center;
+}
+
+footer p {
+  color: #444;
+  font-size: 12px;
+}
+
+.ui-widget-content {
+  background-color: #fff !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  border-radius: 0;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 15px;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 15px;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  border-top: 1px solid rgb(229, 229, 229);
+  //   position: absolute;
+  // width: 100%;
+  // box-sizing: border-box;
+  // bottom: 0;
+}
+
+.ui-button-text-only .ui-button-text {
+  margin-bottom: 0;
+  margin-left: 5px;
+  background-repeat: repeat-x;
+  border-color: #245580;
+  color: #fff;
+  background-color: #337ab7;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border: none;
+  border-radius: 25px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  background: #337ab7 !important;
+  float: right;
+  border: 1px solid #ccc;
+}
+
+.ui-dialog .ui-dialog-buttonpane button:last-child,
+.ui-dialog .ui-dialog-buttonpane button:last-child span {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(51, 51, 51);
+  background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(224, 224, 224) 100%) !important;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  float: left;
+  line-height: 1.5;
+  transition:0.3s all ease-in;
+}
+li:hover{
+  background-color: #555;
+  color: #ccc;
+}
+main {
+  margin-top: 10%;
+}
