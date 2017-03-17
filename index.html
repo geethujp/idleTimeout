@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8" />
-  <title>Jquery-idleTimeout - Demo Page - by JillElaine</title>
+  <title>Idle Screen Manager</title>
   <link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
   <link type="text/css" rel="stylesheet" href="stylesheets/jquery-ui.css" />
   <link type="text/css" rel="stylesheet" href="stylesheets/jquery-ui.structure.css" />
@@ -18,7 +18,7 @@
 
   $(document).ready(function() {
     $(document).idleTimeout({
-      redirectUrl: 'https://github.com/JillElaine/jquery-idleTimeout',
+      redirectUrl: 'http://www.qburst.com/',
       // redirect to this url
       idleTimeLimit: 15,
       // 15 seconds 'No activity' time limit in seconds.
@@ -33,13 +33,27 @@
   });
 
   var voluntaryLogoutOne = function() {
-    window.location.href = "https://github.com/JillElaine/jquery-idleTimeout";
+    window.location.href = "http://www.qburst.com/";
   };
   </script>
 </head>
 
 <body>
-Keep the screen idle for 15 mins to logout automatically.
+<header>
+    <div class="wrapper">
+      <a href="http://www.qburst.com" target="_blank"><img src="images/qburst.png" alt="QBurst Logo" width="100" height="50"></a>
+      <h1>Idle Screen Manager</h1>
+    </div>
+  </header>
+  <main class="wrapper">
+    <ul>
+      <li>Keep the screen idle for 15 seconds to logout automatically.</li>
+      <li>Working on multiple tabs? Your idle tab will not logout any more</li>
+  </main>
+  <footer>
+    <p class="copyright">&copy; QBurst 2017. All Rights Reserved. Privacy & Cookies Policy</p>
+  </footer>
+
 </body>
 
 </html>
